@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">CMPT276_A3</string>
+    <string name="action_settings">Settings</string>
+    <string name="skip">Skip</string>
+    <string name="help">help</string>
+    <string name="start">Start</string>
+    <string name="helpcontent">TextView</string>
+    <string name="this_is_help_page">This is help page</string>
+    <string name="LinkTextview1">courseTextView</string>
+    <string name="by_henry_amp_nathan"><![CDATA[By Henry & Nathan]]></string>
+    <string name="help_back">Back</string>
+    <string name="skip_welcome">skip</string>
+    <string name="gold_miner">Gold Miner</string>
+    <string name="totalGamesPlayed">Total Games Played: %1$d</string>
+    <string name="minScanUsed">Minimum Scans Used: %1$d</string>
+    <string name="minScanUsedNotAvailable">Minimum of Scans Used: Not Available</string>
+    <string name="temp_textview">temp_TextView</string>
+    <string name="numMinesFound">Found %1$d of %2$d Mines</string>
+    <string name="scansUsed"># Scans Used: %1$d</string>
+    <string name="settingsTitle">Settings</string>
+    <string name="board_size_title">Board Size:</string>
+    <string name="number_of_mines_title">Number of Gold:</string>
+    <string name="board4x6">4 rows 6 columns</string>
+    <string name="board5x10">5 rows 10 columns</string>
+    <string name="board6x15">6 rows 15 columns</string>
+    <string name="mines6">6 Gold</string>
+    <string name="mines10">10 Gold</string>
+    <string name="mines15">15 Gold</string>
+    <string name="mines20">20 Gold</string>
+    <string name="settings_save">Save</string>
+    <string name="settings_back">back</string>
+    <string name="reset_record">Reset Record</string>
+    <string name="clear_history">Game History Cleared</string>
+    <string name="gameStatusSaved">Game Status Saved</string>
+    <string name="gameDescription"><![CDATA[
+        <p><span style="font-size: 30px; font-family: Arial, Helvetica, sans-serif;"><strong>How to play:</strong></span></p>
+        <p>1. Press the "Settings" button on the bottom right and chose the mine size and number of gold in the mine</p>
+        <p>2. Press the "Start" button to start a new game</p>
+        <p>3. Press anywhere on the mine to check if there is a mine in there. If there is no mine, it will pop up a number shows the number of "Hidden Gold" on the same row and the same column. The number of scans will be incremented by 1. If there is gold, the number of scans will not be incremented, but you can tap the gold again to scan the "hidden gold"</p>
+        <p>4. Your GOAL is to find all the golds use the minimum number of scans</p>
+        <p>5. The number of games you played and the highest score (minimum scans) will be recorded, and you can clear the history in the "Settings" page as well.</p>
+    ]]></string>
+    <string name="referenceTextBox"><![CDATA[
+        <p><span style="font-size: 30px; font-family: Arial, Helvetica, sans-serif;"><strong>Authors</strong></span></p>
+        <p>Henry Fang, Nathan Li</p>
+        <a href="http://opencoursehub.cs.sfu.ca/bfraser/grav-cms/cmpt276/home">About the Author</a>
+            </span></span></p>
+        <p style="margin: 0px; font-stretch: normal; font-size: 13px; line-height: 1; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family:
+                Arial, Helvetica, sans-serif;"><span style="font-size: 30px;"><strong>Resource Link:</strong></span></span></p>
+        <p style="line-height: 1;"><span style="font-family:
+                Arial, Helvetica, sans-serif;"><span style="font-size:
+              12px;">
+        <p style="line-height: 1;"><span style="font-family:
+                Arial, Helvetica, sans-serif;"><span style="font-size:
+              12px;">
+              <a href="https://miro.medium.com/max/730/1*BlZ-OpQtLiKL0mhERfYnJQ.png">Main Background</a>
+            </span></span></p>
+        <p style="line-height: 1;"><span style="font-family:
+                Arial, Helvetica, sans-serif;"><span style="font-size:
+              12px;">
+              <a href="https://static.coindesk.com/wp-content/uploads/2017/11/BTG-1-710x458.jpg">Game Board Background</a>
+            </span></span></p>
+        <p style="line-height: 1;"><span style="font-family:
+                Arial, Helvetica, sans-serif;"><span style="font-size:
+              12px;">
+              <a href="https://miro.medium.com/max/9440/1*VUHuJ-9kQFGRoxEXsJtVVg.jpeg">Welcome Background</a>
+            </span></span></p>
+        <p style="line-height: 1;"><span style="font-family:
+                Arial, Helvetica, sans-serif;"><span style="font-size:
+              12px;">
+              <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSWNHz_vIAdCBDdEtuurSMy7w35iNFvgcLGs2RwNf1ZqwBiuSQE">Picture in Won Dialog</a>
+            </span></span></p>
+        <p style="line-height: 1;"><span style="font-family:
+                Arial, Helvetica, sans-serif;"><span style="font-size:
+              12px;">
+              <a href="https://bkso.baidu.com/pic/黄金矿工中文版/9082695/0/aa64034f78f0f736fc1ae3f20055b319eac41358?fr=lemma&amp;ct=single#aid=0&amp;pic=aa64034f78f0f736fc1ae3f20055b319eac41358">Settings Background</a>
+            </span></span></p>
+        <p style="line-height: 1;"><span style="font-family:
+                Arial, Helvetica, sans-serif;"><span style="font-size:
+              12px;">
+              <a href="http://www.yisell.com/sound/znhhc85E4qg=.html">Shovel Sound</a>
+            </span></span></p>
+        <p style="line-height: 1;"><span style="font-family:
+                Arial, Helvetica, sans-serif;"><span style="font-size:
+              12px;">
+              <a href="http://www.aigei.com/s?q=黄金&amp;type=sound">Golden Sound</a>
+            </span></span></p>
+        <p style="line-height: 1;"><span style="font-family:
+                Arial, Helvetica, sans-serif;"><span style="font-size:
+              12px;">
+              <a href="https://www.flaticon.com/free-icon/settings_1293875">Settings Icon</a>
+            </span></span></p>
+        <p style="line-height: 1;"><span style="font-family:
+                Arial, Helvetica, sans-serif;"><span style="font-size:
+              12px;">
+              <a href="https://github.com/daimajia/AndroidViewAnimations">Android View Animations</a>
+            </span></span></p>
+    ]]></string>
+</resources>

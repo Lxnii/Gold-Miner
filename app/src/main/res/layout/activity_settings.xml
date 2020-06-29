@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/settings_page"
+    tools:context=".SettingsActivity">
+
+    <TextView
+        android:id="@+id/settingsTitle"
+        android:layout_width="133dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="283dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="283dp"
+        android:text="@string/settingsTitle"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#0D0C0C"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sizeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="600dp"
+        android:text="@string/board_size_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#0B0B0B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="160dp"
+        android:text="@string/number_of_mines_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#0A0A0A"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroupBoard"
+        android:layout_width="180dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settingsTitle">
+
+        <RadioButton
+            android:id="@+id/radioButton4x6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/board4x6"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton5x10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/board5x10"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton6x15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/board6x15"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:id="@+id/RadioGroupMines"
+        android:layout_width="175dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="277dp"
+        android:layout_marginEnd="277dp"
+        android:layout_marginBottom="37dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/mines6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mines6"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/mines10"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/mines10"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/mines15"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/mines15"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/mines20"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/mines20"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/SettingsSavebutton"
+        android:layout_width="80dp"
+        android:layout_height="66dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/back_button"
+        android:text="@string/settings_save"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/SettingsBackButton"
+        android:layout_width="80dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/back_button"
+        android:text="@string/settings_back"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ResetButton"
+        android:layout_width="80dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/back_button"
+        android:text="@string/reset_record"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
